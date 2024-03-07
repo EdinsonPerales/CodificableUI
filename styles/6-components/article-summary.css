@@ -1,0 +1,4 @@
+/* styles/6-components/article-summary.css */
+.article-summary {    
+    max-width: var(--width-xl);/* 576px; */
+}

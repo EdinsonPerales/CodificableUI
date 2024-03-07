@@ -1,0 +1,12 @@
+/* styles/5-objects/objects.css */
+ 
+.section {
+    padding-block: var(--spacing-12);
+  }
+   
+  .container {
+    --padding: 16px;
+    padding-inline: var(--padding);
+    max-width: var(--width-7xl);
+    margin-inline: auto;
+  }

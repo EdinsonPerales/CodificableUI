@@ -1,0 +1,16 @@
+/* styles/6-components/footer.css */
+.footer {
+    padding-block: var(--spacing-8);
+    text-align: center; /* Podemos crear utility */
+    border-top: 1px solid #d4d4d8;
+}
+
+.footer .social-links {
+    margin: 0 auto;
+    margin-bottom: var(--spacing-8);
+}
+
+.footer__copy {
+    font-size: var(--font-xs);
+    line-height: var(--leading-5); /*1.25rem  166.667% */
+}

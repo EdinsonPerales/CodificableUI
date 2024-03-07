@@ -1,0 +1,28 @@
+/* styles/6-components/author.css */
+
+.author > * {
+    display: inline-block;
+}
+
+.author__avatar {
+    width: var(--spacing-12);/* 48px */
+    height: var(--spacing-12);/* 48px */
+    object-fit: cover;
+    border-radius: 50%;/* 50% */
+
+}
+
+.author__info {
+    margin-left: var(--spacing-4);/* 48px */
+}
+
+.author__info > * {
+    display: block;
+    font-size: var(--font-sm);/* 0.875rem */
+    line-height: var(--leading-6); /* 1.5rem 171.429% */
+}
+
+.author__name {
+    color: var(--foreground); /* hsl(0, 0%, 9%) */
+    font-weight: 600;
+}

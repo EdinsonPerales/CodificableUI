@@ -1,0 +1,14 @@
+/* styles/6-components/article.css */
+
+.article {
+    max-width: var(--width-2xl);/* 672px */
+    margin-inline: auto;
+}
+
+.article__header {
+    margin-bottom: var(--spacing-4); /* 16px */
+}
+
+.article__header .article-metadata {
+    margin-bottom: var(--spacing-2); /* 8px */
+}

@@ -1,0 +1,11 @@
+/* styles/6-components/article-metadata.css */
+
+.article-metadata {
+    margin-bottom: var(--spacing-3);/* 12px */
+}
+
+.article-metadata__date {
+    margin-right: var(--spacing-4);/* 16px */  
+    font-size: var(--font-xs);/* 0.75rem*/  
+    line-height: var(--leading-4); /* 1rem 133.333% */
+  }

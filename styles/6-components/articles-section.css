@@ -1,0 +1,13 @@
+/* styles/6-components/articles-section.css */
+.articles-section {
+    max-width: var(--width-2xl);
+    margin-inline: auto;
+  }
+  
+  .articles-section__title {
+    color: var(--foreground);
+    font-size: var(--font-4xl);
+    font-weight: 700;
+    line-height: var(--leading-10); /* 2.5rem  111.111% */
+    letter-spacing: var(--tracking-tight);
+  }

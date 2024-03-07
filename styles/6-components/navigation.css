@@ -1,0 +1,26 @@
+/* styles/6-components/navigation.css */
+  
+.navigation a {
+    color: inherit;    
+}
+
+.navigation ul {
+    list-style: none;
+    color: var(--muted-foreground-subtle);
+    font-size: var(--font-base);
+    font-weight: 500;
+    line-height: var(--leading-4); /* 100% */
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: var(--spacing-2);
+}
+
+.navigation a {
+    padding: var(--spacing-2);
+}
+
+.navigation a:hover {
+    color: var(--neutral-600);
+}

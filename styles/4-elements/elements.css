@@ -1,0 +1,36 @@
+/* styles/4-elements/elements.css */
+ 
+body {
+    font-family: var(--text);
+    font-size: var(--font-base);
+    line-height: var(--leading-6);
+   
+    color: var(--foreground);
+    background-color: var(--background);
+  }
+   
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--heading);
+  }
+   
+  code {
+    font-family: var(--monospace);
+  }
+
+  hr{
+    margin-top: var(--spacing-12);
+    margin-bottom: var(--spacing-12);
+  }
+
+  a{
+    color: var(--primary);
+    font-size: var(--font-sm);
+    font-weight: 600;
+    line-height: var(--leading-6); /* 171.429% */
+    text-decoration: none;
+  }

@@ -1,0 +1,34 @@
+/* styles/index.css */
+ 
+/* 1. Settings */
+@import url(1-settings/colors.css);
+@import url(1-settings/typography.css);
+@import url(1-settings/spacing.css);
+@import url(1-settings/width.css);
+@import url(1-settings/border.css);
+ 
+/* 3. Generic */
+@import url(3-generic/reset.css);
+ 
+/* 4. Elements */
+@import url(4-elements/elements.css);
+ 
+/* 5. Objects */
+@import url(5-objects/objects.css);
+ 
+/* 6. Components */
+@import url(6-components/article-metadata.css);
+@import url(6-components/article-summary.css);
+@import url(6-components/article.css);
+@import url(6-components/articles-section.css);
+@import url(6-components/author.css);
+@import url(6-components/category-tag.css);
+@import url(6-components/content.css);
+@import url(6-components/footer.css);
+@import url(6-components/header.css);
+@import url(6-components/hero.css);
+@import url(6-components/navigation.css);
+@import url(6-components/social-links.css);
+
+/* 7. Utilities */
+@import url(7-utilities/utilities.css);
